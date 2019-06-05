@@ -1,0 +1,63 @@
+workspace 'OpenLibDome.xcworkspace'
+inhibit_all_warnings!
+
+target 'OpenLibDome-ObjC' do
+    platform :ios, '11.0'
+#    use_frameworks!
+    use_modular_headers!
+    # Pods for OpenLibDome-ObjC
+    project 'OpenLibDome-ObjC/OpenLibDome-ObjC.xcodeproj'
+    # 路由
+    pod 'FFRouter'
+    pod 'MGJRouter'
+    pod 'JLRoutes'
+    # 网络库
+    pod 'CocoaAsyncSocket'
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'MQTTClient'
+    pod 'RMQClient'
+    # MJ系列
+    pod 'MJRefresh'
+    pod 'MJExtension'
+    pod 'MJPopupViewController'
+    # 提示
+    pod 'Toast'
+    pod 'MBProgressHUD'
+    # 数据解析
+    pod 'KissXML'
+    # 响应式框架
+    pod 'ReactiveObjC'
+    # 富文本
+    pod 'RTLabel'
+#    pod 'GRichLabel'
+    pod 'Masonry'
+    pod 'SDAutoLayout'
+    pod 'IQKeyboardManager'
+    # 阿里开源框架
+    pod 'coobjc'
+    pod 'cokit'
+#    pod 'wax'
+    pod 'BeeHive'
+#    pod 'VirtualView-iOS'
+    pod 'LazyScrollView'
+#    pod 'LuaViewSDK'
+    pod 'OCAnnotation'
+#    pod 'TMViewTrackerSDK'
+#    pod 'MarkupOC'
+    pod 'MBMvc'
+end
+
+target 'OpenLibDome-Swift' do
+    platform :ios, '11.0'
+    use_modular_headers!
+    # Pods for OpenLibDome-Swift
+    project 'OpenLibDome-Swift/OpenLibDome-Swift.xcodeproj'
+    # 网络库
+    pod 'CocoaAsyncSocket'
+    # 响应式框架
+    pod 'RxSwift'
+    # 阿里开源框架
+    pod 'coswift'
+    pod 'HandyJSON'
+end

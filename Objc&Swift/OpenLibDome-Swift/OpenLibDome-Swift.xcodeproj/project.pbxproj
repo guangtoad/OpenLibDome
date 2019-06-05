@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5352B3A622A7CA3C00741AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5352B3A522A7CA3C00741AE8 /* AppDelegate.swift */; };
+		5352B3A822A7CA3C00741AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5352B3A722A7CA3C00741AE8 /* ViewController.swift */; };
+		5352B3AB22A7CA3C00741AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5352B3A922A7CA3C00741AE8 /* Main.storyboard */; };
+		5352B3AE22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5352B3AC22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodeld */; };
+		5352B3B022A7CA3D00741AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5352B3AF22A7CA3D00741AE8 /* Assets.xcassets */; };
+		5352B3B322A7CA3D00741AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5352B3B122A7CA3D00741AE8 /* LaunchScreen.storyboard */; };
+		5352B3BE22A7CA3D00741AE8 /* OpenLibDome_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5352B3BD22A7CA3D00741AE8 /* OpenLibDome_SwiftTests.swift */; };
+		5352B3C922A7CA3D00741AE8 /* OpenLibDome_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5352B3C822A7CA3D00741AE8 /* OpenLibDome_SwiftUITests.swift */; };
+		DE949219A978962433222DF3 /* libPods-OpenLibDome-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D08C3346C6CBB90101B91899 /* libPods-OpenLibDome-Swift.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5352B3BA22A7CA3D00741AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5352B39A22A7CA3C00741AE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352B3A122A7CA3C00741AE8;
+			remoteInfo = "OpenLibDome-Swift";
+		};
+		5352B3C522A7CA3D00741AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5352B39A22A7CA3C00741AE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352B3A122A7CA3C00741AE8;
+			remoteInfo = "OpenLibDome-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5352B3A222A7CA3C00741AE8 /* OpenLibDome-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenLibDome-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5352B3A522A7CA3C00741AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5352B3A722A7CA3C00741AE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5352B3AA22A7CA3C00741AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5352B3AD22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenLibDome_Swift.xcdatamodel; sourceTree = "<group>"; };
+		5352B3AF22A7CA3D00741AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5352B3B222A7CA3D00741AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5352B3B422A7CA3D00741AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5352B3B922A7CA3D00741AE8 /* OpenLibDome-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenLibDome-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5352B3BD22A7CA3D00741AE8 /* OpenLibDome_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLibDome_SwiftTests.swift; sourceTree = "<group>"; };
+		5352B3BF22A7CA3D00741AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5352B3C422A7CA3D00741AE8 /* OpenLibDome-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenLibDome-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5352B3C822A7CA3D00741AE8 /* OpenLibDome_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLibDome_SwiftUITests.swift; sourceTree = "<group>"; };
+		5352B3CA22A7CA3D00741AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08C3346C6CBB90101B91899 /* libPods-OpenLibDome-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenLibDome-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3932F214B6F9294AF66FEC /* Pods-OpenLibDome-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenLibDome-Swift.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-OpenLibDome-Swift/Pods-OpenLibDome-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CB1EF10EEA7F1CDE1EE6C2 /* Pods-OpenLibDome-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenLibDome-Swift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-OpenLibDome-Swift/Pods-OpenLibDome-Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5352B39F22A7CA3C00741AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE949219A978962433222DF3 /* libPods-OpenLibDome-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5352B3B622A7CA3D00741AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5352B3C122A7CA3D00741AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379811F405A23CF8DDCB3424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE3932F214B6F9294AF66FEC /* Pods-OpenLibDome-Swift.debug.xcconfig */,
+				F3CB1EF10EEA7F1CDE1EE6C2 /* Pods-OpenLibDome-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5315E53722A7D34200F7BD6B /* View&Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View&Controller";
+			path = "../../OpenLibDome-ObjC/OpenLibDome-ObjC/View&Controller";
+			sourceTree = "<group>";
+		};
+		5315E53822A7D34200F7BD6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "../../OpenLibDome-ObjC/OpenLibDome-ObjC/Model";
+			sourceTree = "<group>";
+		};
+		5352B39922A7CA3C00741AE8 = {
+			isa = PBXGroup;
+			children = (
+				5352B3A422A7CA3C00741AE8 /* OpenLibDome-Swift */,
+				5352B3BC22A7CA3D00741AE8 /* OpenLibDome-SwiftTests */,
+				5352B3C722A7CA3D00741AE8 /* OpenLibDome-SwiftUITests */,
+				5352B3A322A7CA3C00741AE8 /* Products */,
+				379811F405A23CF8DDCB3424 /* Pods */,
+				A340AF3BEDAB59A8DEEDC3AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5352B3A322A7CA3C00741AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5352B3A222A7CA3C00741AE8 /* OpenLibDome-Swift.app */,
+				5352B3B922A7CA3D00741AE8 /* OpenLibDome-SwiftTests.xctest */,
+				5352B3C422A7CA3D00741AE8 /* OpenLibDome-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5352B3A422A7CA3C00741AE8 /* OpenLibDome-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5315E53822A7D34200F7BD6B /* Model */,
+				5315E53722A7D34200F7BD6B /* View&Controller */,
+				5352B3A522A7CA3C00741AE8 /* AppDelegate.swift */,
+				5352B3A722A7CA3C00741AE8 /* ViewController.swift */,
+				5352B3A922A7CA3C00741AE8 /* Main.storyboard */,
+				5352B3AF22A7CA3D00741AE8 /* Assets.xcassets */,
+				5352B3B122A7CA3D00741AE8 /* LaunchScreen.storyboard */,
+				5352B3B422A7CA3D00741AE8 /* Info.plist */,
+				5352B3AC22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodeld */,
+			);
+			path = "OpenLibDome-Swift";
+			sourceTree = "<group>";
+		};
+		5352B3BC22A7CA3D00741AE8 /* OpenLibDome-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5352B3BD22A7CA3D00741AE8 /* OpenLibDome_SwiftTests.swift */,
+				5352B3BF22A7CA3D00741AE8 /* Info.plist */,
+			);
+			path = "OpenLibDome-SwiftTests";
+			sourceTree = "<group>";
+		};
+		5352B3C722A7CA3D00741AE8 /* OpenLibDome-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5352B3C822A7CA3D00741AE8 /* OpenLibDome_SwiftUITests.swift */,
+				5352B3CA22A7CA3D00741AE8 /* Info.plist */,
+			);
+			path = "OpenLibDome-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		A340AF3BEDAB59A8DEEDC3AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D08C3346C6CBB90101B91899 /* libPods-OpenLibDome-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5352B3A122A7CA3C00741AE8 /* OpenLibDome-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5352B3CD22A7CA3D00741AE8 /* Build configuration list for PBXNativeTarget "OpenLibDome-Swift" */;
+			buildPhases = (
+				5C4F53761C05B6CD8930B97D /* [CP] Check Pods Manifest.lock */,
+				5352B39E22A7CA3C00741AE8 /* Sources */,
+				5352B39F22A7CA3C00741AE8 /* Frameworks */,
+				5352B3A022A7CA3C00741AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenLibDome-Swift";
+			productName = "OpenLibDome-Swift";
+			productReference = 5352B3A222A7CA3C00741AE8 /* OpenLibDome-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5352B3B822A7CA3D00741AE8 /* OpenLibDome-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5352B3D022A7CA3D00741AE8 /* Build configuration list for PBXNativeTarget "OpenLibDome-SwiftTests" */;
+			buildPhases = (
+				5352B3B522A7CA3D00741AE8 /* Sources */,
+				5352B3B622A7CA3D00741AE8 /* Frameworks */,
+				5352B3B722A7CA3D00741AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5352B3BB22A7CA3D00741AE8 /* PBXTargetDependency */,
+			);
+			name = "OpenLibDome-SwiftTests";
+			productName = "OpenLibDome-SwiftTests";
+			productReference = 5352B3B922A7CA3D00741AE8 /* OpenLibDome-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5352B3C322A7CA3D00741AE8 /* OpenLibDome-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5352B3D322A7CA3D00741AE8 /* Build configuration list for PBXNativeTarget "OpenLibDome-SwiftUITests" */;
+			buildPhases = (
+				5352B3C022A7CA3D00741AE8 /* Sources */,
+				5352B3C122A7CA3D00741AE8 /* Frameworks */,
+				5352B3C222A7CA3D00741AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5352B3C622A7CA3D00741AE8 /* PBXTargetDependency */,
+			);
+			name = "OpenLibDome-SwiftUITests";
+			productName = "OpenLibDome-SwiftUITests";
+			productReference = 5352B3C422A7CA3D00741AE8 /* OpenLibDome-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5352B39A22A7CA3C00741AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = toad;
+				TargetAttributes = {
+					5352B3A122A7CA3C00741AE8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					5352B3B822A7CA3D00741AE8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5352B3A122A7CA3C00741AE8;
+					};
+					5352B3C322A7CA3D00741AE8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5352B3A122A7CA3C00741AE8;
+					};
+				};
+			};
+			buildConfigurationList = 5352B39D22A7CA3C00741AE8 /* Build configuration list for PBXProject "OpenLibDome-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5352B39922A7CA3C00741AE8;
+			productRefGroup = 5352B3A322A7CA3C00741AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5352B3A122A7CA3C00741AE8 /* OpenLibDome-Swift */,
+				5352B3B822A7CA3D00741AE8 /* OpenLibDome-SwiftTests */,
+				5352B3C322A7CA3D00741AE8 /* OpenLibDome-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5352B3A022A7CA3C00741AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352B3B322A7CA3D00741AE8 /* LaunchScreen.storyboard in Resources */,
+				5352B3B022A7CA3D00741AE8 /* Assets.xcassets in Resources */,
+				5352B3AB22A7CA3C00741AE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5352B3B722A7CA3D00741AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5352B3C222A7CA3D00741AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C4F53761C05B6CD8930B97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenLibDome-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5352B39E22A7CA3C00741AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352B3A822A7CA3C00741AE8 /* ViewController.swift in Sources */,
+				5352B3AE22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodeld in Sources */,
+				5352B3A622A7CA3C00741AE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5352B3B522A7CA3D00741AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352B3BE22A7CA3D00741AE8 /* OpenLibDome_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5352B3C022A7CA3D00741AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352B3C922A7CA3D00741AE8 /* OpenLibDome_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5352B3BB22A7CA3D00741AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5352B3A122A7CA3C00741AE8 /* OpenLibDome-Swift */;
+			targetProxy = 5352B3BA22A7CA3D00741AE8 /* PBXContainerItemProxy */;
+		};
+		5352B3C622A7CA3D00741AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5352B3A122A7CA3C00741AE8 /* OpenLibDome-Swift */;
+			targetProxy = 5352B3C522A7CA3D00741AE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5352B3A922A7CA3C00741AE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5352B3AA22A7CA3C00741AE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5352B3B122A7CA3D00741AE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5352B3B222A7CA3D00741AE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5352B3CB22A7CA3D00741AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5352B3CC22A7CA3D00741AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5352B3CE22A7CA3D00741AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3932F214B6F9294AF66FEC /* Pods-OpenLibDome-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = "OpenLibDome-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toad.OpenLibDome-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5352B3CF22A7CA3D00741AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CB1EF10EEA7F1CDE1EE6C2 /* Pods-OpenLibDome-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = "OpenLibDome-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toad.OpenLibDome-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5352B3D122A7CA3D00741AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = "OpenLibDome-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toad.OpenLibDome-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenLibDome-Swift.app/OpenLibDome-Swift";
+			};
+			name = Debug;
+		};
+		5352B3D222A7CA3D00741AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = "OpenLibDome-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toad.OpenLibDome-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenLibDome-Swift.app/OpenLibDome-Swift";
+			};
+			name = Release;
+		};
+		5352B3D422A7CA3D00741AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = "OpenLibDome-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toad.OpenLibDome-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenLibDome-Swift";
+			};
+			name = Debug;
+		};
+		5352B3D522A7CA3D00741AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = "OpenLibDome-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toad.OpenLibDome-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenLibDome-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5352B39D22A7CA3C00741AE8 /* Build configuration list for PBXProject "OpenLibDome-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5352B3CB22A7CA3D00741AE8 /* Debug */,
+				5352B3CC22A7CA3D00741AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5352B3CD22A7CA3D00741AE8 /* Build configuration list for PBXNativeTarget "OpenLibDome-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5352B3CE22A7CA3D00741AE8 /* Debug */,
+				5352B3CF22A7CA3D00741AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5352B3D022A7CA3D00741AE8 /* Build configuration list for PBXNativeTarget "OpenLibDome-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5352B3D122A7CA3D00741AE8 /* Debug */,
+				5352B3D222A7CA3D00741AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5352B3D322A7CA3D00741AE8 /* Build configuration list for PBXNativeTarget "OpenLibDome-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5352B3D422A7CA3D00741AE8 /* Debug */,
+				5352B3D522A7CA3D00741AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5352B3AC22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5352B3AD22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodel */,
+			);
+			currentVersion = 5352B3AD22A7CA3C00741AE8 /* OpenLibDome_Swift.xcdatamodel */;
+			path = OpenLibDome_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5352B39A22A7CA3C00741AE8 /* Project object */;
+}
